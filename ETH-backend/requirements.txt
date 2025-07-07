@@ -1,0 +1,38 @@
+# Web framework & server
+fastapi
+uvicorn[standard]
+
+# Database ORM & connection
+sqlalchemy
+alembic
+psycopg2-binary
+
+# Auth & security
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+PyJWT
+python-multipart
+
+# Environment
+python-dotenv
+
+# HTTP requests & integrations
+requests
+openai
+langchain
+langchain-openai
+
+# Bitcoin/Blockchain integration
+bitcoinlib
+bit
+blockcypher
+websockets
+schedule
+yfinance
+ccxt
+websocket-client
+
+# Additional dependencies
+pydantic[email]
+cryptography

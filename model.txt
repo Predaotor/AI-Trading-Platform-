@@ -1,0 +1,26 @@
+                        ┌────────────────────────────┐
+                        │       Frontend (React)     │
+                        │ Tailwind + TypeScript      │
+                        │ - Bot controls             │
+                        │ - Status/Logs              │
+                        └──────────┬─────────────────┘
+                                   │
+                      REST/JSON or WebSocket API
+                                   │
+         ┌─────────────────────────▼────────────────────────┐
+         │                 Backend (FastAPI)                │
+         │ - Exposes API endpoints                          │
+         │ - Validates user input, handles auth             │
+         │ - Calls Web3.py for blockchain interactions      │
+         └──────────────┬───────────────────────────────────┘
+                        │
+                ┌───────▼────────────┐
+                │  Python Bot Engine │
+                │ - Strategy logic   │
+                │ - Web3.py trading  │
+                │ - Logging & alerts │
+                └────────┬───────────┘
+                         │
+               RPC/HTTPS │ (Infura, Alchemy, or local node)
+                         ▼
+                   Ethereum Blockchain
