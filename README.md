@@ -303,6 +303,12 @@ alembic upgrade head
 
 This project is licensed under the MIT License.
 
+## ⚠️ Important Disclaimer
+
+**Please read the [DISCLAIMER.md](DISCLAIMER.md) file before using this software.**
+
+This project is for educational and demonstration purposes only. Cryptocurrency trading involves substantial risk of loss and is not suitable for all investors. This software does not constitute financial advice.
+
 ## 🆘 Support
 
 For support, please open an issue in the repository or contact the development team.

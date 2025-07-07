@@ -175,3 +175,4 @@ When contributing to this project, please update this changelog with a new entry
 - Detailed description of changes
 - Breaking changes and migration notes
 - Any new files or significant updates 
+
